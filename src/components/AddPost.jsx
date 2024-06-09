@@ -5,9 +5,7 @@ const AddPost = () => {
     return (
         <div>
 
-<Navbar/>
-
-            <div className="container">
+<Navbar/> <div className="container">
                 <div className="row">
                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
@@ -50,7 +48,9 @@ const AddPost = () => {
 
 
         </div>
-    )
+ 
+
+              )
 }
 
 export default AddPost
